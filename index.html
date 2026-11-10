@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 영화 보드</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<body>
+    <header class="top">
+    <h1>내 영화 보드</h1>
+    <nav>
+      <ul>
+        <li><a href="mine">영상미 영화</a></li>
+        <li><a href="#boxoffice">박스오피스</a></li>
+        <li><a href="detail.html">상세</a></li>
+      </ul>
+    </nav>
+
+    </header>
+
+    <section class="hero">
+      <h2>내 취향 영상미 좋은 영화 다섯 편</h2>
+      <p>포스터 위에 마우스를 올려 보세요.</p>
+    </section>
+
+    <pre id = "out>"></pre>
+    <main>
+     <section id="mine">
+      <h2>내 인생 영화 5편</h2> 
+      <div class="board"> 
+
+        <article class="card">
+          <img class="poster"
+            src="https://image.tmdb.org/t/p/w342/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg"
+            alt="레옹 영화 포스터">
+
+          <span class="badge">8.2</span>
+
+          <div class="info">
+            <h2>레옹</h2>
+            <p class="year">1994-09-14</p>
+            <p class="overview">
+                한 손엔 우유 2팩이 든 가방, 다른 한 손엔 화분을 들고
+                뿌리 없이 떠도는 킬러 레옹은 어느 날 옆집 소녀
+                마틸다의 일가족이 몰살당하는 것을 목격한다.
+                가족의 원수를 갚기 위해 킬러가 되기로 결심한
+                마틸다는 레옹에게 복수하는 법을 배우기 시작하는데...
+            </p>
+          </div>
+        </article>
+
+
+
+        <article class="card">
+          <img class="poster"
+            src="https://image.tmdb.org/t/p/w342/hMRIyBjPzxaSXWM06se3OcNjIQa.jpg"
+            alt="어톤먼트">
+        
+
+          <span class="badge">7.6</span>
+
+          <div class="content">
+            <h2>어톤먼트</h2>
+            <p class="year">2007-02-27</p>
+            <p class="overview">
+                1935년 영국, 부유한 집안의 아름다운 딸 세실리아는 시골 저택에서 여름을 보내던 중 
+                가정부의 아들이자 세실리아 집안의 도움으로 캠브리지 의대를 졸업한 로비와 마주친다. 
+                어릴 때부터 서로에게 애틋한 마음이 있었지만 서로의 신분 차이 때문에
+                애써 자신의 마음을 부정하며 고백하지 못하던 이들은 그날 밤 서로의 사랑을 확인한다. 
+                하지만 이들을 지켜본 세실리아의 동생 브라이오니의 오해로 
+                로비는 억울한 누명을 쓰고 전쟁터로 끌려가게 된다. 
+                이후 세실리아는 로비가 전쟁터에서 돌아오기만을 기다리며 간호사로 일하게 되고, 
+                로비 또한 세실리아를 다시 만난다는 단 하나의 일념으로 전쟁터에서 살아남기 위해 애쓰는데…
+            </p>
+          </div>
+        </article>
+
+
+
+        <article class="card">
+          <img class="poster"
+            src="https://image.tmdb.org/t/p/w342/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg"
+            alt="화양연화 포스터">
+        
+
+          <span class="badge">8.1</span>
+
+          <div class="content">
+            <h2>화양연화</h2>
+            <p class="year">2000-09-29</p>
+            <p class="overview">
+                홍콩의 지역 매일 신문 편집장인 초 모완, 수출회사의 비서로 근무하는 수 리첸. 
+                둘은 상하이 지역의 한 건물로 같은 날 이사하게 된다. 이사 날부터 의도치 않게 오가며 자주 부딪히게 되는 두 사람. 
+                둘 다 가정이 있지만 어쩐지 배우자들은 자리를 비우는 날이 더 많고 두 사람의 외로움은 서로에게 낯설지 않게 다가와 둘을 가깝게 한다. 
+                두 사람은 점점 감정이 깊어질수록 겉으로는 더욱 조심스러워지고 예견되어 있는 이별 앞에 마음이 혼란스럽고, 
+                서로의 자리에서 마음으로 바라는 그들의 사랑은 애절하기만 하다.
+            </p>
+          </div>
+        </article>
+
+
+
+        <article class="card">
+          <img class="poster"
+            src="https://image.tmdb.org/t/p/w342/cybXGmv8Rjd5Os8Xml6YxMBQ0Zt.jpg"
+            alt="마리 앙투아네트 포스터">
+        
+
+          <span class="badge">6.7</span>
+
+          <div class="content">
+            <h2>마리 앙투아네트</h2>
+            <p class="year">2006-05-24</p>
+            <p class="overview">
+               오스트리아의 공주 마리 앙투아네트는 동맹을 위해 프랑스의 황태자 루이 16세와 정략결혼을 하고 베르사유에 입궐한다. 
+               완전히 다른 세상에 들어선 그녀는 새로운 생활에 대한 기대로 설레지만, 
+               무관심한 남편과 프랑스 귀족들의 시기심으로 점차 프랑스에서의 생활에 외로움을 느끼고 지쳐만 가는데...
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster"
+            src="https://image.tmdb.org/t/p/w342/lcvnOZKLfYBb4o0R44GtmCAc6G1.jpg"
+            alt="물에 빠진 나이프 포스터">  
+        
+
+          <span class="badge">6.2</span>
+
+          <div class="info">
+            <h2>물에 빠진 나이프</h2>
+            <p class="year">2016-11-05</p>
+            <p class="overview">
+               15살의 여름.  도쿄에서 멀리 떨어진 시골, 우키구모 마을에 이사 온 인기 모델 모치즈키 나츠메(고마츠 나나).  
+               나츠메는 지루하고 심심한 이 마을에서, 오만 할 만큼 격렬하게, 자유로운 코우(스다 마사키)를 보며 반발하면서도 어쩔 수 없는 끌림을 느낀다.  
+               그들을 둘러싼 슬프고 강렬한 사랑이야기.  청춘들의 방황, 질투와 사랑...그 운명의 시간들  10년 간의 장기 연재를 마친 동명의 만화, 영화화!
+            </p>
+          </div>
+        </article>
+      </div>
+     </section>
+
+     <section id="boxoffice">
+        <h2>일별 박스오피스 TOP 5</h2> 
+        <p class="basis">KOBIS 기준일 2026-10-27</p>
+        <div class="board">
+
+            <article class="card"> 
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/2sapvk8OG1rmaS2PquLnfyoMvOS.jpg" alt="극장판 치이카와: 인어 섬의 비밀 포스터"> 
+                <span class="rank">1</span> 
+                <span class="badge">7.4</span> 
+                <div class="info">
+                    <h3>극장판 치이카와: 인어 섬의 비밀</h3>
+                    <p class="year">개봉 2026-09-30</p>
+                    <p class="audience">누적 2,268,267명</p>
+                    <p class="change">-</p>   
+                </div>
+            </article>
+
+            <article class="card"> 
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/vxLkqJHsFmrnOg78KoTvwxXDTKo.jpg" alt="암살자(들) 포스터"> 
+                <span class="rank">2</span> 
+                <span class="badge">7.2</span> 
+                <div class="info">
+                    <h3>암살자(들)</h3>
+                    <p class="year">개봉 2026-09-23</p>
+                    <p class="audience">누적 3,382,052명</p>
+                    <p class="change">-</p>   
+                </div>
+            </article>  
+
+            <article class="card"> 
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/6DLBaO4pKBuEXeoHZCCpEVAqyKz.jpg" alt="실낙원 포스터"> 
+                <span class="rank">3</span> 
+                <span class="badge">8.0</span> 
+                <div class="info">
+                    <h3>실낙원</h3>
+                    <p class="year">개봉 2026-10-21</p>
+                    <p class="audience">누적 112,191명</p>
+                    <p class="change">-</p>   
+                </div>
+            </article> 
+
+            <article class="card"> 
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/4w4TEDwrXFMpdZSI0xvaUAgiOc1.jpg" alt="타짜: 벨제붑의 노래 포스터"> 
+                <span class="rank">4</span> 
+                <span class="badge">7.0</span> 
+                <div class="info">
+                    <h3>타짜: 벨제붑의 노래</h3>
+                    <p class="year">개봉 2026-09-23</p>
+                    <p class="audience">누적 2,006,482명</p>
+                    <p class="change">-</p>   
+                </div>
+            </article>
+
+            <article class="card"> 
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/9l1NuFjel2j89hiuiJbsxfblqjy.jpg" alt="클레이페이스 포스터"> 
+                <span class="rank">5</span> 
+                <span class="badge">7.4</span> 
+                <div class="info">
+                    <h3>클레이페이스</h3>
+                    <p class="year">개봉 2026-10-21</p>
+                    <p class="audience">누적 84196명</p>
+                    <p class="change">-</p>   
+                </div>
+            </article>
+        </div>             
+      </section>
+    </main>
+    
+
+    <footer>
+        <p> 이 사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다.
+            This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <p>포스터와 영화 정보: TMDB (https://www.themoviedb.org)</p> 
+        <p>박스오피스 데이터: 영화진흥위원회 영화관입장권통합전산망(KOBIS), 기준일 2026-10-27</p>
+            
+    </footer>
+</body>
+</html>
